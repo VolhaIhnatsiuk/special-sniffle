@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load ="partials/header.html" />
+    <load src="partials/header.html" />
+
+    <button type="button js-open-modal" class="modal-1" data-modal="modal-1">
+      Modal-1
+    </button>
+    <button type="button js-open-modal" class="modal-2" data-modal="modal-2">
+      Modal-2
+    </button>
 
     <section>
       <h1>Lorem ipsum dolor sit amet.</h1>
@@ -17,8 +24,11 @@
     </section>
 
     <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
+    <load src="partials/vite-promo.html" />
+    <load src="partials/modal-main.html" />
+    <load src="partials/modal-scd.html" />
 
+    <div class="overlay js-overlay-modal"></div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
