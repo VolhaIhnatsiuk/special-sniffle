@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/special-sniffle./",
+    "build": "vite build --base=/special-sniffle/",
     "preview": "vite preview"
   },
   "devDependencies": {
